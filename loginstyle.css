@@ -1,0 +1,131 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Mooli', sans-serif;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.login {
+    position: relative;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.login__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.login__form {
+    position: relative;
+    width: 420px;
+    height: 450px;
+    background-color:rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: hsla(0, 0%, 100%, .7);
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+}
+.login_header{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.client_information{
+    width: 100%;
+    height: 170px;
+}
+.login_chek{
+    width: 100%;
+    height: 50px;
+}
+.login_button{
+    height: 50px;
+    width: 80%;
+    position: absolute;
+    border-radius: 20px;
+    border: none;
+    left: 10%;
+    background-color: hsl(200, 6%, 10%);
+    font-weight: 900;
+    display: block;
+    cursor: pointer;
+    color: aliceblue;
+}
+.login_button:hover{
+    background-color: hsl(200, 6%, 18%);
+}
+.Register{
+    position: absolute;
+    bottom: 13px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+a{
+    color: white;
+}
+.Register a:hover {
+    text-decoration: underline;cursor: pointer;
+}
+.Remember_me{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-right: 55px;
+}
+input{
+    margin-left: 45px ;
+}
+.forgot_pass{
+    color: white;
+}
+.forgot_pass:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.client_email{
+    width: 80%;
+    height: 60px;
+    border-style: solid;
+    border-radius: 25px;
+    margin-left: 10%;
+    background: none;
+    font-weight: 500;
+    padding-block: 1rem;
+    font-size: 1rem;
+}
+.client_email::placeholder {
+    color: var(--white-color);
+    font-size: 20px;
+}
+.client_pass{
+    width: 80%;
+    height: 60px;
+    border-style: solid;
+    border-radius: 25px;
+    margin-left: 10%;
+    background: none;
+    font-weight: 500;
+    padding-block: 1rem;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.client_pass::placeholder {
+    color: var(--white-color);
+    font-size: 20px;
+}
+.qqqqq{
+    cursor: pointer;
+}
